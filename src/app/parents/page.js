@@ -25,11 +25,11 @@ export default function ParentsCornerPage() {
               </div>
               <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-accent">For Families</span>
             </div>
-            <h1 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-white sm:text-7xl lg:text-9xl">
-              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-4xl sm:text-5xl lg:text-6xl">Welcome to the</span>
+            <h1 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-white sm:text-6xl lg:text-7xl">
+              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-3xl sm:text-4xl lg:text-5xl">Welcome to the</span>
               Parent's <span className="bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent">Corner</span>
             </h1>
-            <p className="mx-auto max-w-2xl text-xl font-medium leading-relaxed text-white/60 md:text-3xl">
+            <p className="mx-auto max-w-2xl text-lg font-medium leading-relaxed text-white/60 md:text-2xl">
               Resources, updates, and community connections for PS 38 families.
             </p>
           </div>
@@ -43,7 +43,7 @@ export default function ParentsCornerPage() {
         </section>
 
         {/* PTA Section */}
-        <section className="bg-warm-50 py-32 md:py-48 relative overflow-hidden">
+        <section className="bg-warm-50 py-16 md:py-32 lg:py-48 relative overflow-hidden">
           {/* Subtle Motif */}
           <div className="absolute top-40 right-0 opacity-[0.03] pointer-events-none rotate-12 scale-150">
             <svg width="200" height="200" viewBox="0 0 100 100" fill="#00223a"><circle cx="50" cy="50" r="40" stroke="currentColor" strokeWidth="2" fill="none" strokeDasharray="10,5"/></svg>
@@ -55,7 +55,7 @@ export default function ParentsCornerPage() {
                 <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-primary/5 px-5 py-2 text-xs font-black uppercase tracking-wider text-primary">
                   Community Leadership
                 </div>
-                <h2 className="mb-10 text-6xl font-black tracking-tighter text-gray-900 md:text-8xl transition-all duration-500 group-hover:translate-x-2">
+                <h2 className="mb-10 text-4xl font-black tracking-tighter text-gray-900 md:text-6xl lg:text-7xl transition-all duration-500 group-hover:translate-x-2">
                   PTA <span className="italic font-serif text-accent">Board</span>
                 </h2>
                 <div className="mb-12 relative rounded-[3rem] bg-white p-12 shadow-xl ring-1 ring-gray-100 overflow-hidden">
@@ -92,7 +92,7 @@ export default function ParentsCornerPage() {
         </section>
 
         {/* Portals Section */}
-        <section className="relative overflow-hidden bg-[#001524] py-32 md:py-48 text-white">
+        <section className="relative overflow-hidden bg-[#001524] py-16 md:py-32 lg:py-48 text-white">
           {/* Wavy Divider */}
           <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
             <svg className="relative block w-full h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -105,7 +105,7 @@ export default function ParentsCornerPage() {
               <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-5 py-2 text-xs font-black uppercase tracking-wider text-accent">
                 Digital Hub
               </div>
-              <h2 className="text-6xl font-black tracking-tighter md:text-8xl">Essential <span className="italic font-serif text-accent">Portals</span></h2>
+              <h2 className="text-4xl font-black tracking-tighter md:text-6xl lg:text-7xl">Essential <span className="italic font-serif text-accent">Portals</span></h2>
               <p className="mx-auto mt-8 max-w-2xl text-2xl text-white/60 font-medium">One-click access to student records and learning platforms.</p>
             </div>
             
@@ -132,7 +132,7 @@ export default function ParentsCornerPage() {
         </section>
 
         {/* Support & Snacks Section */}
-        <section className="relative overflow-hidden bg-white py-32 md:py-48">
+        <section className="relative overflow-hidden bg-white py-16 md:py-32 lg:py-48">
           {/* Wavy Divider */}
           <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
             <svg className="relative block w-full h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -143,7 +143,7 @@ export default function ParentsCornerPage() {
           <div className="mx-auto max-w-6xl px-6">
             <div className="grid gap-16 lg:grid-cols-2">
               <div className="relative rounded-[4rem] bg-warm-50 p-12 md:p-20 border-2 border-dashed border-gray-200 group overflow-hidden transition-all duration-500 hover:border-primary/30">
-                <h3 className="mb-10 text-4xl font-black tracking-tighter text-gray-900 md:text-5xl transition-all duration-500 group-hover:translate-x-2">Tech <span className="italic font-serif text-primary">Support</span></h3>
+                <h3 className="mb-10 text-3xl font-black tracking-tighter text-gray-900 md:text-4xl lg:text-5xl transition-all duration-500 group-hover:translate-x-2">Tech <span className="italic font-serif text-primary">Support</span></h3>
                 <p className="mb-12 text-2xl text-gray-500 leading-relaxed font-medium">Direct lines for technical assistance and device troubleshooting.</p>
                 <div className="space-y-8">
                   <a href="tel:718-935-5100" className="group/call flex items-center gap-6 rounded-[2.5rem] bg-white p-8 shadow-sm ring-1 ring-gray-100 hover:shadow-2xl transition-all">
@@ -164,7 +164,7 @@ export default function ParentsCornerPage() {
 
               <div className="relative rounded-[4rem] bg-[#001524] p-12 md:p-20 text-white shadow-3xl overflow-hidden group">
                 <div className="absolute -top-10 -right-10 h-64 w-64 rounded-full bg-accent/20 blur-[100px] animate-pulse"></div>
-                <h3 className="mb-10 text-4xl font-black tracking-tighter md:text-5xl transition-all duration-500 group-hover:translate-x-2">Snack <span className="italic font-serif text-accent">Cart</span></h3>
+                <h3 className="mb-10 text-3xl font-black tracking-tighter md:text-4xl lg:text-5xl transition-all duration-500 group-hover:translate-x-2">Snack <span className="italic font-serif text-accent">Cart</span></h3>
                 <div className="relative mb-12 overflow-hidden rounded-[2.5rem] shadow-2xl">
                   <img src="https://image.echalk.com/site/1809/xzyUr5naHVkXdLPFzGbADTLRMEDRTyCLxe8iVUrjXvqqLQagWWNaM5HnCITkYzIFzTMNUUVFUI0Q-Xsyg1HVGzwvyfjQ_ZECmWF0anhxdsc" alt="PS 38 Snack Cart" className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110" />
                 </div>
@@ -185,9 +185,9 @@ export default function ParentsCornerPage() {
         </section>
 
         {/* Spirit & Guides Grid */}
-        <section className="relative overflow-hidden bg-warm-50 py-32 md:py-48">
+        <section className="relative overflow-hidden bg-warm-50 py-16 md:py-32 lg:py-48">
           <div className="mx-auto max-w-6xl px-6 relative z-10">
-            <h2 className="mb-20 text-center text-6xl font-black leading-tight tracking-tighter text-gray-900 md:text-8xl">
+            <h2 className="mb-20 text-center text-4xl font-black leading-tight tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">
               School <span className="italic font-serif text-primary">Spirit</span> & Guides
             </h2>
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

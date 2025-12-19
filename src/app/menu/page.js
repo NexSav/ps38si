@@ -25,11 +25,11 @@ export default function MenuPage() {
               </div>
               <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-accent">Daily Dining</span>
             </div>
-            <h1 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-white sm:text-8xl lg:text-9xl">
-              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-4xl sm:text-5xl lg:text-6xl">Healthy</span>
+            <h1 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-white sm:text-6xl lg:text-7xl">
+              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-3xl sm:text-4xl lg:text-5xl">Healthy</span>
               Daily <span className="bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent">Dining</span>
             </h1>
-            <p className="mx-auto max-w-2xl text-xl font-medium leading-relaxed text-white/60 md:text-3xl">
+            <p className="mx-auto max-w-2xl text-lg font-medium leading-relaxed text-white/60 md:text-2xl">
               Fresh breakfast and lunch menus for our growing learners.
             </p>
           </div>
@@ -43,7 +43,7 @@ export default function MenuPage() {
         </section>
 
         {/* Meal Times Section */}
-        <section className="bg-warm-50 py-32 md:py-48 relative overflow-hidden">
+        <section className="bg-warm-50 py-16 md:py-32 lg:py-48 relative overflow-hidden">
           <div className="mx-auto max-w-6xl px-6 relative z-10">
             <div className="grid gap-16 md:grid-cols-2">
               <div className="group relative">
@@ -81,7 +81,7 @@ export default function MenuPage() {
         </section>
 
         {/* Guidelines Section */}
-        <section className="relative overflow-hidden bg-white py-32 md:py-48">
+        <section className="relative overflow-hidden bg-white py-16 md:py-32 lg:py-48">
           {/* Wavy Divider */}
           <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
             <svg className="relative block w-full h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -90,7 +90,7 @@ export default function MenuPage() {
           </div>
 
           <div className="mx-auto max-w-5xl px-6 relative z-10 text-center">
-            <h2 className="mb-16 text-6xl font-black tracking-tighter text-gray-900 md:text-8xl">Lunch from <span className="italic font-serif text-primary">Home</span></h2>
+            <h2 className="mb-16 text-4xl font-black tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">Lunch from <span className="italic font-serif text-primary">Home</span></h2>
             
             <div className="relative p-12 md:p-24 rounded-[4rem] bg-warm-50 border-2 border-dashed border-accent/20 group">
               <div className="absolute -top-10 -right-10 h-40 w-40 animate-bounce-slow opacity-20 pointer-events-none">

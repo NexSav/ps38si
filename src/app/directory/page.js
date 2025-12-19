@@ -63,11 +63,11 @@ export default function DirectoryPage() {
               </div>
               <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-accent">Our Team</span>
             </div>
-            <h1 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-white sm:text-8xl lg:text-9xl">
-              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-4xl sm:text-5xl lg:text-6xl">Meet Our</span>
+            <h1 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-white sm:text-6xl lg:text-7xl">
+              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-3xl sm:text-4xl lg:text-5xl">Meet Our</span>
               Faculty & <span className="bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent">Staff</span>
             </h1>
-            <p className="mx-auto max-w-2xl text-xl font-medium leading-relaxed text-white/60 md:text-3xl">
+            <p className="mx-auto max-w-2xl text-lg font-medium leading-relaxed text-white/60 md:text-2xl">
               Our dedicated team of educators and support staff committed to excellence.
             </p>
           </div>
@@ -81,13 +81,13 @@ export default function DirectoryPage() {
         </section>
 
         {/* Directory Sections */}
-        <section className="bg-warm-50 py-32">
+        <section className="bg-warm-50 py-16 md:py-32 lg:py-48">
           <div className="mx-auto max-w-7xl px-6">
             
             {/* Administrators */}
             <div className="mb-32">
               <div className="mb-16 flex items-center gap-8">
-                <h2 className="text-5xl font-black tracking-tighter text-gray-900 md:text-6xl">Administration</h2>
+                <h2 className="text-4xl font-black tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">Administration</h2>
                 <div className="h-[2px] flex-grow bg-gradient-to-r from-accent/40 to-transparent"></div>
               </div>
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
@@ -100,7 +100,7 @@ export default function DirectoryPage() {
             {/* Teachers */}
             <div className="mb-32">
               <div className="mb-16 flex items-center gap-8">
-                <h2 className="text-5xl font-black tracking-tighter text-gray-900 md:text-6xl">Teachers</h2>
+                <h2 className="text-4xl font-black tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">Teachers</h2>
                 <div className="h-[2px] flex-grow bg-gradient-to-r from-primary/40 to-transparent"></div>
               </div>
               <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -113,7 +113,7 @@ export default function DirectoryPage() {
             {/* Staff */}
             <div>
               <div className="mb-16 flex items-center gap-8">
-                <h2 className="text-5xl font-black tracking-tighter text-gray-900 md:text-6xl">Support Staff</h2>
+                <h2 className="text-4xl font-black tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">Support Staff</h2>
                 <div className="h-[2px] flex-grow bg-gradient-to-r from-gray-300 to-transparent"></div>
               </div>
               <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

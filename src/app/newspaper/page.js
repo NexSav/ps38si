@@ -25,11 +25,11 @@ export default function NewspaperPage() {
               </div>
               <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-accent">Student Voice</span>
             </div>
-            <h1 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-white sm:text-8xl lg:text-9xl">
-              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-4xl sm:text-5xl lg:text-6xl">The Dolphin</span>
+            <h1 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-white sm:text-6xl lg:text-7xl">
+              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-3xl sm:text-4xl lg:text-5xl">The Dolphin</span>
               School <span className="bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent">Times</span>
             </h1>
-            <p className="mx-auto max-w-2xl text-xl font-medium leading-relaxed text-white/60 md:text-3xl">
+            <p className="mx-auto max-w-2xl text-lg font-medium leading-relaxed text-white/60 md:text-2xl">
               PS 38's very own school newspaper. Extra! Extra! Read all about it!
             </p>
           </div>
@@ -43,7 +43,7 @@ export default function NewspaperPage() {
         </section>
 
         {/* Latest Issue Section */}
-        <section className="bg-warm-50 py-32 md:py-48 relative overflow-hidden">
+        <section className="bg-warm-50 py-16 md:py-32 lg:py-48 relative overflow-hidden">
           {/* Playful Motif */}
           <div className="absolute top-20 right-10 opacity-[0.05] pointer-events-none scale-150 rotate-45">
             <svg width="100" height="100" viewBox="0 0 100 100" fill="currentColor" className="text-accent"><path d="M50,10 L90,90 L10,90 Z" stroke="currentColor" strokeWidth="2" fill="none" strokeDasharray="5,5"/></svg>
@@ -55,7 +55,7 @@ export default function NewspaperPage() {
                 <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-primary/5 px-5 py-2 text-xs font-black uppercase tracking-wider text-primary">
                   Latest Issue
                 </div>
-                <h2 className="mb-10 text-6xl font-black leading-[1] tracking-tighter text-gray-900 md:text-8xl transition-all duration-500 group-hover:translate-x-2">
+                <h2 className="mb-10 text-4xl font-black leading-[1] tracking-tighter text-gray-900 md:text-6xl lg:text-7xl transition-all duration-500 group-hover:translate-x-2">
                   January / <br />
                   <span className="relative inline-block text-primary">
                     February <span className="italic font-serif text-accent">2024</span>
@@ -64,7 +64,7 @@ export default function NewspaperPage() {
                     </svg>
                   </span>
                 </h2>
-                <p className="mb-12 text-2xl text-gray-500 font-medium leading-relaxed">
+                <p className="mb-12 text-lg md:text-xl text-gray-500 font-medium leading-relaxed">
                   Stay updated with stories, student achievements, and community events shared by our very own Dolphin journalists.
                 </p>
                 <a href="https://echalk-slate-prod.s3.amazonaws.com/private/schools/1808/resources/f70cbf7d-2606-4fab-bda1-f014303ab64e?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&Expires=2025609231&response-cache-control=private%2C%20max-age%3D31536000&response-content-disposition=%3Bfilename%3D%22dolphins-24_svc8172.pdf%22&response-content-type=application%2Fpdf&Signature=CJxbAKiO3VQR4PQVU8%2BppmVmKOA%3D" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-6 rounded-[2.5rem] bg-primary px-12 py-8 text-2xl font-black uppercase tracking-widest text-white shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95 hover:bg-accent">
@@ -103,12 +103,12 @@ export default function NewspaperPage() {
             <div className="mb-10 inline-flex items-center gap-2 rounded-full bg-accent/10 px-6 py-2 text-xs font-black uppercase tracking-wider text-accent">
               Student Journalism
             </div>
-            <h2 className="mb-12 text-6xl font-black tracking-tighter text-gray-900 md:text-8xl">
+            <h2 className="mb-12 text-4xl font-black tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">
               Empowering Student <span className="italic font-serif text-primary">Voice</span>
             </h2>
             <div className="relative">
-              <span className="absolute -top-10 -left-10 text-9xl font-serif text-accent opacity-20">“</span>
-              <p className="text-3xl font-medium leading-relaxed text-gray-500 italic max-w-2xl mx-auto">
+              <span className="absolute -top-10 -left-10 text-7xl md:text-9xl font-serif text-accent opacity-20">"</span>
+              <p className="text-xl md:text-2xl font-medium leading-relaxed text-gray-500 italic max-w-2xl mx-auto">
                 The Dolphin Times is a platform for our students to explore their creativity, 
                 develop journalism skills, and share their unique perspectives.
               </p>

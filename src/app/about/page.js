@@ -25,11 +25,11 @@ export default function AboutPage() {
               </div>
               <span className="text-[10px] font-black uppercase tracking-[0.3em] text-accent">School Profile</span>
             </div>
-            <h1 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-white sm:text-8xl lg:text-9xl">
-              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-4xl sm:text-5xl lg:text-6xl">Discover</span>
+            <h1 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-white sm:text-6xl lg:text-7xl">
+              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-3xl sm:text-4xl lg:text-5xl">Discover</span>
               Our <span className="bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent">School</span>
             </h1>
-            <p className="mx-auto max-w-2xl text-xl font-medium leading-relaxed text-white/60 md:text-3xl">
+            <p className="mx-auto max-w-2xl text-lg font-medium leading-relaxed text-white/60 md:text-2xl">
               History, mission, and the heart of the PS 38 George Cromwell community.
             </p>
           </div>
@@ -43,13 +43,13 @@ export default function AboutPage() {
         </section>
 
         {/* School Vision Section */}
-        <section className="relative overflow-hidden bg-warm-50 py-32 md:py-48">
+        <section className="relative overflow-hidden bg-warm-50 py-16 md:py-32 lg:py-48">
           <div className="mx-auto max-w-6xl px-6">
             <div className="mb-24 text-center">
               <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary/5 px-5 py-2 text-xs font-black uppercase tracking-[0.2em] text-primary">
                 Our Foundation
               </div>
-              <h2 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-gray-900 md:text-8xl">
+              <h2 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">
                 School <span className="italic font-serif text-accent">Vision</span>
               </h2>
               <p className="mx-auto max-w-3xl text-xl leading-relaxed text-gray-500 md:text-2xl">
@@ -108,7 +108,7 @@ export default function AboutPage() {
         </section>
 
         {/* Theory of Action Section */}
-        <section className="relative overflow-hidden bg-[#001524] py-32 md:py-48 text-white">
+        <section className="relative overflow-hidden bg-[#001524] py-16 md:py-32 lg:py-48 text-white">
           {/* Wavy Divider */}
           <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
             <svg className="relative block w-full h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -123,7 +123,7 @@ export default function AboutPage() {
               <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-5 py-2 text-xs font-black uppercase tracking-wider text-accent">
                 Our Strategy
               </div>
-              <h2 className="text-6xl font-black tracking-tighter md:text-8xl">Theory of <span className="italic font-serif text-accent">Action</span></h2>
+              <h2 className="text-4xl font-black tracking-tighter md:text-6xl lg:text-7xl">Theory of <span className="italic font-serif text-accent">Action</span></h2>
             </div>
 
             <div className="grid gap-12 lg:grid-cols-3">
@@ -161,7 +161,7 @@ export default function AboutPage() {
         </section>
 
         {/* Equity Values Section */}
-        <section className="relative overflow-hidden bg-white py-32 md:py-48">
+        <section className="relative overflow-hidden bg-white py-16 md:py-32 lg:py-48">
           {/* Wavy Divider */}
           <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
             <svg className="relative block w-full h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -175,7 +175,7 @@ export default function AboutPage() {
                 <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-primary/5 px-5 py-2 text-xs font-black uppercase tracking-wider text-primary">
                   Core Principles
                 </div>
-                <h2 className="mb-12 text-6xl font-black tracking-tighter text-gray-900 md:text-8xl">Equity <span className="italic font-serif text-accent">Values</span></h2>
+                <h2 className="mb-12 text-4xl font-black tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">Equity <span className="italic font-serif text-accent">Values</span></h2>
                 
                 <div className="space-y-12">
                   {[
@@ -216,7 +216,7 @@ export default function AboutPage() {
         </section>
 
         {/* Stay Connected Section */}
-        <section className="relative overflow-hidden bg-warm-100 py-32 md:py-48">
+        <section className="relative overflow-hidden bg-warm-100 py-16 md:py-32 lg:py-48">
           {/* Wavy Divider */}
           <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
             <svg className="relative block w-full h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -228,7 +228,7 @@ export default function AboutPage() {
             <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-accent/10 px-6 py-2 text-xs font-black uppercase tracking-wider text-accent">
               Stay Connected
             </div>
-            <h2 className="mb-10 text-6xl font-black leading-tight tracking-tighter text-gray-900 md:text-8xl">
+            <h2 className="mb-10 text-4xl font-black leading-tight tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">
               eChalk <span className="italic font-serif text-primary">Notify</span> App
             </h2>
             <p className="mb-16 text-2xl leading-relaxed text-gray-500 font-medium">

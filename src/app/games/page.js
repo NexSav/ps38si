@@ -43,11 +43,11 @@ export default function GamesPage() {
               </div>
               <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-accent">Student Zone</span>
             </div>
-            <h1 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-white sm:text-8xl lg:text-9xl">
-              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-4xl sm:text-5xl lg:text-6xl">Learning Is</span>
+            <h1 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-white sm:text-6xl lg:text-7xl">
+              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-3xl sm:text-4xl lg:text-5xl">Learning Is</span>
               Fun & <span className="bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent">Games</span>
             </h1>
-            <p className="mx-auto max-w-2xl text-xl font-medium leading-relaxed text-white/60 md:text-3xl">
+            <p className="mx-auto max-w-2xl text-lg font-medium leading-relaxed text-white/60 md:text-2xl">
               Digital adventures, educational portals, and creative stations.
             </p>
           </div>
@@ -61,7 +61,7 @@ export default function GamesPage() {
         </section>
 
         {/* Learning Hub Grid */}
-        <section className="bg-warm-50 py-32 md:py-48 relative overflow-hidden">
+        <section className="bg-warm-50 py-16 md:py-32 lg:py-48 relative overflow-hidden">
           {/* Background Detail */}
           <div className="absolute top-20 left-10 opacity-[0.03] pointer-events-none scale-150">
             <svg width="100" height="100" viewBox="0 0 100 100" fill="currentColor" className="text-primary"><rect x="10" y="10" width="80" height="80" rx="20" stroke="currentColor" strokeWidth="2" fill="none" strokeDasharray="10,5"/></svg>
@@ -72,7 +72,7 @@ export default function GamesPage() {
               <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary/5 px-5 py-2 text-xs font-black uppercase tracking-wider text-primary">
                 Educational Portals
               </div>
-              <h2 className="text-6xl font-black tracking-tighter text-gray-900 md:text-8xl">Explore the <span className="italic font-serif text-accent">Web</span></h2>
+              <h2 className="text-4xl font-black tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">Explore the <span className="italic font-serif text-accent">Web</span></h2>
               <p className="mx-auto mt-8 max-w-2xl text-2xl text-gray-500 font-medium leading-relaxed">Trusted learning resources used by George Cromwell students every day.</p>
             </div>
             
@@ -95,7 +95,7 @@ export default function GamesPage() {
         </section>
 
         {/* Digital Field Trips */}
-        <section className="relative overflow-hidden bg-[#001524] py-32 md:py-48 text-white">
+        <section className="relative overflow-hidden bg-[#001524] py-16 md:py-32 lg:py-48 text-white">
           {/* Wavy Divider */}
           <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
             <svg className="relative block w-full h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -110,7 +110,7 @@ export default function GamesPage() {
               <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-5 py-2 text-xs font-black uppercase tracking-wider text-accent">
                 Digital Field Trips
               </div>
-              <h2 className="text-6xl font-black tracking-tighter md:text-8xl">Explore the <span className="italic font-serif text-accent">World</span></h2>
+              <h2 className="text-4xl font-black tracking-tighter md:text-6xl lg:text-7xl">Explore the <span className="italic font-serif text-accent">World</span></h2>
               <p className="mt-8 text-2xl text-white/60 font-medium max-w-2xl">Journey across museums and landmarks from your classroom or home.</p>
             </div>
 
@@ -128,7 +128,7 @@ export default function GamesPage() {
         </section>
 
         {/* Ms Gina's Station */}
-        <section className="relative overflow-hidden bg-white py-32 md:py-48">
+        <section className="relative overflow-hidden bg-white py-16 md:py-32 lg:py-48">
           {/* Wavy Divider */}
           <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
             <svg className="relative block w-full h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -137,7 +137,7 @@ export default function GamesPage() {
           </div>
 
           <div className="mx-auto max-w-5xl px-6 relative z-10 text-center">
-            <h2 className="mb-16 text-6xl font-black tracking-tighter text-gray-900 md:text-8xl">Gina's <span className="italic font-serif text-primary">Station</span></h2>
+            <h2 className="mb-16 text-4xl font-black tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">Gina's <span className="italic font-serif text-primary">Station</span></h2>
             <div className="relative rounded-[4rem] bg-warm-50 p-12 md:p-24 border-2 border-dashed border-primary/20">
               <div className="grid gap-8 md:grid-cols-2">
                 {[

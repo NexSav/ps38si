@@ -125,11 +125,11 @@ export default function CalendarPage() {
               </div>
               <span className="text-[10px] font-black uppercase tracking-[0.3em] text-accent">Dates & Deadlines</span>
             </div>
-            <h1 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-white sm:text-8xl lg:text-9xl">
-              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-4xl sm:text-5xl lg:text-6xl">School</span>
+            <h1 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-white sm:text-6xl lg:text-7xl">
+              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-3xl sm:text-4xl lg:text-5xl">School</span>
               Official <span className="bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent">Calendar</span>
             </h1>
-            <p className="mx-auto max-w-2xl text-xl font-medium leading-relaxed text-white/60 md:text-3xl">
+            <p className="mx-auto max-w-2xl text-lg font-medium leading-relaxed text-white/60 md:text-2xl">
               Stay informed about important school events and academic dates.
             </p>
           </div>

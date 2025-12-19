@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
-
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
 
   useEffect(() => {
@@ -98,19 +98,60 @@ export default function Navbar() {
 
               {/* Mobile Menu Button */}
               <button
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className="inline-flex items-center justify-center rounded-2xl bg-white/50 p-2.5 text-gray-700 shadow-sm ring-1 ring-black/5 transition-all duration-300 hover:bg-white hover:scale-105 lg:hidden"
-                aria-label="Open menu"
+                aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+                aria-expanded={isMobileMenuOpen}
               >
-                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
+                {isMobileMenuOpen ? (
+                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                ) : (
+                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                )}
               </button>
+            </div>
+          </div>
+
+          {/* Mobile Menu */}
+          <div
+            className={`overflow-hidden transition-all duration-500 ease-in-out lg:hidden ${
+              isMobileMenuOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'
+            }`}
+          >
+            <div className="border-t border-gray-100 px-4 pb-6 pt-4">
+              <div className="flex flex-col gap-2">
+                <MobileNavLink href="/" onClick={() => setIsMobileMenuOpen(false)}>Home</MobileNavLink>
+
+                <MobileDropdown title="About">
+                  <MobileNavLink href="/about" onClick={() => setIsMobileMenuOpen(false)}>About The School</MobileNavLink>
+                  <MobileNavLink href="/directory" onClick={() => setIsMobileMenuOpen(false)}>Staff Directory</MobileNavLink>
+                  <MobileNavLink href="/policies" onClick={() => setIsMobileMenuOpen(false)}>Policies/Rules</MobileNavLink>
+                </MobileDropdown>
+
+                <MobileNavLink href="/events" onClick={() => setIsMobileMenuOpen(false)}>Calendar</MobileNavLink>
+                <MobileNavLink href="/parents" onClick={() => setIsMobileMenuOpen(false)}>Parents</MobileNavLink>
+                <MobileNavLink href="/menu" onClick={() => setIsMobileMenuOpen(false)}>Menu</MobileNavLink>
+                <MobileNavLink href="/games" onClick={() => setIsMobileMenuOpen(false)}>Games</MobileNavLink>
+
+                <MobileDropdown title="More">
+                  <MobileNavLink href="/newspaper" onClick={() => setIsMobileMenuOpen(false)}>Dolphin Times</MobileNavLink>
+                  <MobileNavLink href="https://app.echalk.com/#/login" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)}>Login</MobileNavLink>
+                </MobileDropdown>
+
+                <button className="mt-4 w-full rounded-2xl bg-primary px-6 py-4 text-sm font-black uppercase tracking-[0.1em] text-white shadow-xl transition-all duration-300 hover:bg-accent">
+                  Enroll Now
+                </button>
+              </div>
             </div>
           </div>
 
           {/* Elegant Scroll Progress */}
           <div className="absolute bottom-0 left-8 right-8 h-[2px] overflow-hidden rounded-full bg-gray-950/5">
-            <div 
+            <div
               className="h-full bg-gradient-to-r from-accent via-primary to-accent transition-all duration-300 ease-out"
               style={{ width: `${scrollProgress}%` }}
             ></div>
@@ -185,5 +226,53 @@ function DropdownLink({ href, children, ...props }) {
     >
       {children}
     </a>
+  );
+}
+
+function MobileNavLink({ href, children, onClick, ...props }) {
+  return (
+    <a
+      href={href}
+      onClick={onClick}
+      className="rounded-2xl px-4 py-3 text-sm font-black uppercase tracking-wider text-gray-600 transition-all duration-300 hover:bg-primary/5 hover:text-primary focus:outline-none focus:bg-primary/5"
+      {...props}
+    >
+      {children}
+    </a>
+  );
+}
+
+function MobileDropdown({ title, children }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div className="flex flex-col">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className={`flex items-center justify-between rounded-2xl px-4 py-3 text-sm font-black uppercase tracking-wider transition-all duration-300 ${
+          isOpen ? 'bg-primary/5 text-primary' : 'text-gray-600 hover:bg-primary/5 hover:text-primary'
+        }`}
+      >
+        {title}
+        <svg
+          className={`h-4 w-4 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={3}
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      <div
+        className={`overflow-hidden transition-all duration-300 ${
+          isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+        }`}
+      >
+        <div className="ml-4 flex flex-col gap-1 border-l-2 border-primary/10 pl-2 pt-2">
+          {children}
+        </div>
+      </div>
+    </div>
   );
 }

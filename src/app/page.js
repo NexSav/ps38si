@@ -88,12 +88,12 @@ function HeroSection() {
           <span className="text-xs font-black uppercase tracking-[0.25em] text-white">Home of the Dolphins</span>
         </div>
 
-        <h1 className="mb-10 text-6xl font-black leading-[1.05] tracking-tighter text-white sm:text-8xl lg:text-9xl">
+        <h1 className="mb-10 text-5xl font-black leading-[1.05] tracking-tighter text-white sm:text-7xl lg:text-8xl">
           <span className="block italic font-serif text-accent drop-shadow-sm">Welcome to</span>
           PS 38 <span className="bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent">Cromwell</span>
         </h1>
-        
-        <p className="mx-auto mb-16 max-w-2xl text-xl font-medium leading-relaxed text-white/70 md:text-3xl">
+
+        <p className="mx-auto mb-16 max-w-2xl text-lg font-medium leading-relaxed text-white/70 md:text-2xl">
           Where every child is a star and{' '}
           <span className="relative inline-block text-white font-bold">
             Together is Better
@@ -174,7 +174,7 @@ function QuickAccessSection() {
 // ============================================================================
 function AboutSection() {
   return (
-    <section id="about" className="relative overflow-hidden bg-warm-50 py-32 md:py-48">
+    <section id="about" className="relative overflow-hidden bg-warm-50 py-16 md:py-32 lg:py-48">
       {/* Playful Background Motifs */}
       <div className="absolute top-20 right-10 opacity-[0.05] pointer-events-none">
         <svg width="200" height="200" viewBox="0 0 100 100" fill="currentColor" className="text-primary">
@@ -212,7 +212,7 @@ function AboutSection() {
             <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-accent/10 px-5 py-2 text-xs font-black uppercase tracking-[0.2em] text-accent">
               Our Mission
             </div>
-            <h2 className="mb-10 text-6xl font-black leading-[1] tracking-tighter text-gray-900 md:text-7xl lg:text-8xl">
+            <h2 className="mb-10 text-5xl font-black leading-[1] tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">
               Welcome to <br />
               <span className="relative inline-block text-primary">
                 PS 38 Cromwell
@@ -281,7 +281,7 @@ function ValuesStatsSection() {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-white py-32 md:py-48">
+    <section className="relative overflow-hidden bg-white py-16 md:py-32 lg:py-48">
       {/* Decorative Wavy Background */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
         <svg className="relative block w-full h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -291,10 +291,10 @@ function ValuesStatsSection() {
 
       <div className="relative z-10 mx-auto max-w-6xl px-6">
         <div className="mb-24 text-center">
-          <h2 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-gray-900 md:text-8xl">
+          <h2 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">
             Our <span className="italic font-serif text-accent">Values</span>
           </h2>
-          <p className="mx-auto max-w-2xl text-xl leading-relaxed text-gray-500 md:text-2xl">
+          <p className="mx-auto max-w-2xl text-lg leading-relaxed text-gray-500 md:text-xl">
             What makes PS 38 a special place to learn and grow for every student
           </p>
         </div>
@@ -355,7 +355,7 @@ function LeadershipSection() {
           <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary/5 px-5 py-2 text-xs font-black uppercase tracking-[0.2em] text-primary">
             Our Team
           </div>
-          <h2 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-gray-900 md:text-8xl">
+          <h2 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">
             School <span className="italic font-serif text-accent">Leadership</span>
           </h2>
           <p className="mx-auto max-w-2xl text-xl leading-relaxed text-gray-500">
@@ -478,7 +478,7 @@ function NewsSection() {
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-accent/10 px-5 py-2 text-xs font-black uppercase tracking-[0.2em] text-accent">
               Updates
             </div>
-            <h2 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-gray-900 md:text-8xl">
+            <h2 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">
               Latest <span className="italic font-serif text-primary">News</span>
             </h2>
             <p className="text-xl leading-relaxed text-gray-500">
@@ -558,7 +558,7 @@ function EventsSection() {
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-accent/10 px-5 py-2 text-xs font-black uppercase tracking-[0.2em] text-accent">
               Calendar
             </div>
-            <h2 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-gray-900 md:text-8xl">
+            <h2 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-gray-900 md:text-6xl lg:text-7xl">
               Upcoming <span className="italic font-serif text-primary">Events</span>
             </h2>
             <p className="text-xl leading-relaxed text-gray-500">
@@ -657,7 +657,7 @@ function EventsSection() {
 // ============================================================================
 function CommunityInviteSection() {
   return (
-    <section className="relative overflow-hidden bg-[#001524] py-32 md:py-48 text-white">
+    <section className="relative overflow-hidden bg-[#001524] py-16 md:py-32 lg:py-48 text-white">
       {/* Playful Wave Divider (Top) */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
         <svg className="relative block w-full h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -675,12 +675,12 @@ function CommunityInviteSection() {
           <span className="text-xs font-black uppercase tracking-[0.3em] text-accent">Join Our Family</span>
         </div>
         
-        <h2 className="mb-12 text-6xl font-black leading-[1.05] tracking-tighter sm:text-8xl lg:text-9xl">
+        <h2 className="mb-12 text-4xl font-black leading-[1.05] tracking-tighter sm:text-6xl lg:text-7xl">
           <span className="block italic font-serif text-accent drop-shadow-sm mb-4">You belong</span>
           here at <span className="bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent">PS 38</span>
         </h2>
-        
-        <p className="mx-auto mb-20 max-w-2xl text-2xl font-medium leading-relaxed text-white/70 md:text-4xl">
+
+        <p className="mx-auto mb-20 max-w-2xl text-lg font-medium leading-relaxed text-white/70 md:text-2xl">
           Join our vibrant community where every Dolphin thrives and <br />
           <span className="italic text-white">futures are built together.</span>
         </p>

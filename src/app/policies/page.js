@@ -34,11 +34,11 @@ export default function PoliciesPage() {
               </div>
               <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-accent">School Guidelines</span>
             </div>
-            <h1 className="mb-6 text-6xl font-black leading-tight tracking-tighter text-white sm:text-8xl lg:text-9xl">
-              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-4xl sm:text-5xl lg:text-6xl">Rules &</span>
+            <h1 className="mb-6 text-4xl font-black leading-tight tracking-tighter text-white sm:text-6xl lg:text-7xl">
+              <span className="block italic font-serif text-accent drop-shadow-sm mb-4 text-3xl sm:text-4xl lg:text-5xl">Rules &</span>
               School <span className="bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent">Policies</span>
             </h1>
-            <p className="mx-auto max-w-2xl text-xl font-medium leading-relaxed text-white/60 md:text-3xl">
+            <p className="mx-auto max-w-2xl text-lg font-medium leading-relaxed text-white/60 md:text-2xl">
               Standards ensuring a safe, respectful, and productive learning environment.
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function PoliciesPage() {
         </section>
 
         {/* Content Section */}
-        <section className="bg-warm-50 py-32 md:py-48">
+        <section className="bg-warm-50 py-16 md:py-32 lg:py-48">
           <div className="mx-auto max-w-5xl px-6">
             
             {/* Cell Phone Policy */}
@@ -60,7 +60,7 @@ export default function PoliciesPage() {
               <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-accent/10 px-5 py-2 text-xs font-black uppercase tracking-wider text-accent">
                 Updated for 2025-2026
               </div>
-              <h2 className="mb-12 text-6xl font-black tracking-tighter text-gray-900 md:text-8xl transition-all duration-500 group-hover:translate-x-2">
+              <h2 className="mb-12 text-4xl font-black tracking-tighter text-gray-900 md:text-6xl lg:text-7xl transition-all duration-500 group-hover:translate-x-2">
                 Cell Phone <span className="italic font-serif text-primary">Policy</span>
               </h2>
               
@@ -91,7 +91,7 @@ export default function PoliciesPage() {
               <div className="absolute top-0 right-0 h-full w-1/2 bg-gradient-to-l from-primary-light/20 to-transparent pointer-events-none"></div>
               
               <div className="relative z-10 text-center md:text-left">
-                <h2 className="mb-8 text-6xl font-black leading-tight tracking-tighter md:text-8xl transition-all duration-500 group-hover:translate-x-2">
+                <h2 className="mb-8 text-4xl font-black leading-tight tracking-tighter md:text-6xl lg:text-7xl transition-all duration-500 group-hover:translate-x-2">
                   NYC <span className="italic font-serif text-accent">Discipline</span> Code
                 </h2>
                 <p className="mb-16 text-2xl text-white/60 font-medium max-w-2xl">
