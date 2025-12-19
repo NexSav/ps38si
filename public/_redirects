@@ -1,0 +1,5 @@
+# Netlify redirects file for Next.js SPA routing
+# This ensures all routes are handled by Next.js
+
+# Rewrite all routes to index for client-side routing
+/*    /index.html   200

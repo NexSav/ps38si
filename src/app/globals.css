@@ -10,6 +10,29 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Refined School Palette */
+  --color-primary: #00223a;
+  --color-primary-light: #003d5c;
+  --color-primary-lighter: #005580;
+
+  --color-accent: #f59e42;
+  --color-accent-light: #fbb675;
+  --color-accent-navy: #0a2e5c;
+
+  /* Warm School Neutrals */
+  --color-warm-50: #fdfaf6;
+  --color-warm-100: #f9f3e9;
+  --color-warm-200: #f2e8d5;
+
+  /* Neutral grays */
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
 }
 
 @media (prefers-color-scheme: dark) {
