@@ -122,7 +122,7 @@ export default function Navbar() {
               isMobileMenuOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'
             }`}
           >
-            <div className="border-t border-gray-100 px-4 pb-6 pt-4">
+            <div className="border-t border-gray-200 bg-white/95 backdrop-blur-xl px-4 pb-6 pt-4 rounded-b-[2rem]">
               <div className="flex flex-col gap-2">
                 <MobileNavLink href="/" onClick={() => setIsMobileMenuOpen(false)}>Home</MobileNavLink>
 
@@ -207,7 +207,7 @@ function NavDropdown({ title, children }) {
           isOpen ? 'visible translate-y-0 opacity-100' : 'invisible translate-y-4 opacity-0'
         }`}
       >
-        <div className="w-64 overflow-hidden rounded-[2rem] border border-white/40 bg-white/80 p-2 shadow-2xl backdrop-blur-2xl ring-1 ring-black/5">
+        <div className="w-64 overflow-hidden rounded-[2rem] border border-gray-200 bg-white/95 p-2 shadow-2xl backdrop-blur-xl ring-1 ring-black/5">
           <div className="flex flex-col gap-1">
             {children}
           </div>
@@ -234,7 +234,7 @@ function MobileNavLink({ href, children, onClick, ...props }) {
     <a
       href={href}
       onClick={onClick}
-      className="rounded-2xl px-4 py-3 text-sm font-black uppercase tracking-wider text-gray-600 transition-all duration-300 hover:bg-primary/5 hover:text-primary focus:outline-none focus:bg-primary/5"
+      className="rounded-2xl px-4 py-3 text-sm font-black uppercase tracking-wider text-gray-700 transition-all duration-300 hover:bg-primary/10 hover:text-primary focus:outline-none focus:bg-primary/10"
       {...props}
     >
       {children}
@@ -250,7 +250,7 @@ function MobileDropdown({ title, children }) {
       <button
         onClick={() => setIsOpen(!isOpen)}
         className={`flex items-center justify-between rounded-2xl px-4 py-3 text-sm font-black uppercase tracking-wider transition-all duration-300 ${
-          isOpen ? 'bg-primary/5 text-primary' : 'text-gray-600 hover:bg-primary/5 hover:text-primary'
+          isOpen ? 'bg-primary/10 text-primary' : 'text-gray-700 hover:bg-primary/10 hover:text-primary'
         }`}
       >
         {title}
